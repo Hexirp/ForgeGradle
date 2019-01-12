@@ -15,7 +15,7 @@ install:
   - ./gradlew tasks
 
 script:
-  - ./gradlew build
+  - ./gradlew assemble
 
 cache:
   directories:
