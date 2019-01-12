@@ -15,7 +15,7 @@ install:
   - ./gradlew tasks
 
 script:
-  - ./gradlew assemble
+  - ./gradlew assemble --warning-mode all
 
 cache:
   directories:
